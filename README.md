@@ -13,4 +13,4 @@ Email:**zebrawhite0412@gmail.com**<br/>
 Hiện đang thực tập tại công ty Meditech dưới sự hướng dẫn của anh Nguyễn Thế Nam<br/>
 
 Và từ lâu em vẫn có một trăn trở<br/>
-(http://i.imgur.com/SbCv8rD.jpg)
+<img src="http://i.imgur.com/SbCv8rD.jpg">
