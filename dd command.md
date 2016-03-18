@@ -1,7 +1,9 @@
 #Linux and Unix dd command
 ##Giới thiệu về lệnh dd
 Lệnh dd dùng để sao lưu và phục hồi dữ liệu,chuyển đổi định dạng của dữ liệu,tạo file với kích thước cố định,ngoài ra nó còn dùng để đo tốc độ đọc ghi của ổ cứng
+
 **Cú pháp**
+
     dd OPTION 
     
     dd [Toán tử]...
@@ -55,7 +57,7 @@ Block và Bytes có thể thêm một số trường theo sau để khai báo đ
 
 - Sao lưu toàn bộ dữ liệu ổ cứng sao ổ cứng khác:
  
-    dd if=/dev/sda of=/dev/sdb conv=noerror,sync
+    ```dd if=/dev/sda of=/dev/sdb conv=noerror,sync```
 
 *Tùy chọn conv=noerror,sync có nghĩa là vẫn tiếp tục sao lưu nếu dữ liệu đầu vào bị lỗi và tự động đồng bộ với dữ liệu sdb
 
@@ -63,11 +65,12 @@ Block và Bytes có thể thêm một số trường theo sau để khai báo đ
 
 - Tạo 1 file img cho ổ SDA1:
  
-    dd if=/dev/sda1 of=/root/sda1.img
+    ```dd if=/dev/sda1 of=/root/sda1.img```
 <img src="http://i.imgur.com/itpQEdW.png">
 - Phục hồi dữ liệu
  
-    dd if=/root/sda1.img of=/dev/sda1
+        dd if=/root/sda1.img of=/dev/sda1
+
 <img src="http://i.imgur.com/jdIBQYN.png">
 - Chuyển đổi chữ thường thành hoa và ngược lại:
  
