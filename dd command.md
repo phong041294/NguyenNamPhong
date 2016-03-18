@@ -3,8 +3,11 @@
 Lệnh dd dùng để sao lưu và phục hồi dữ liệu,chuyển đổi định dạng của dữ liệu,tạo file với kích thước cố định,ngoài ra nó còn dùng để đo tốc độ đọc ghi của ổ cứng
 **Cú pháp**
     dd OPTION 
+    
     dd [Toán tử]...
+    
 Toán tử
+
 | Toán tử |Ý nghĩa |
 | ------------- |-----:|
 | bs=BYTES | Quá trình đọc (ghi) bao nhiêu byte một lần đọc (ghi |
@@ -18,6 +21,7 @@ Toán tử
 | conv=Convs | Chỉ ra tác vụ cụ thể của câu lệnh, các tùy chọn được ghi dưới bảng sau đây |
 
 **Chi tiết Conv**
+
 | Tác vụ | Ý nghĩa |
 | ------------- |-----:|
 | ascii | Chuyển đôi từ mã EBCDIC sáng ASCII |
@@ -54,7 +58,9 @@ Block và Bytes có thể thêm một số trường theo sau để khai báo đ
     dd if=/dev/sda of=/dev/sdb conv=noerror,sync
 
 *Tùy chọn conv=noerror,sync có nghĩa là vẫn tiếp tục sao lưu nếu dữ liệu đầu vào bị lỗi và tự động đồng bộ với dữ liệu sdb
+
 <img src="http://i.imgur.com/Z5QQDOa.png">
+
 - Tạo 1 file img cho ổ SDA1:
  
     dd if=/dev/sda1 of=/root/sda1.img
