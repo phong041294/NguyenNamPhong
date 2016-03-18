@@ -8,7 +8,7 @@ Lệnh dd dùng để sao lưu và phục hồi dữ liệu,chuyển đổi đ�
     
     dd [Toán tử]...
     
-Toán tử
+**Toán tử**
 
 | Toán tử |Ý nghĩa |
 | ------------- |-----:|
@@ -98,7 +98,8 @@ Cú pháp đo tốc độ ghi:
 <img src="http://i.imgur.com/32N1ARz.png">
 
 *Trong đó iflag/oflag=direct có nghĩa là sử dụng luồng Input/Output trực tiếp và bỏ qua buffer cache.*
-*Ngoài ra bạn có thể thêm thông số * **conv=fdatasync**
+
+*Ngoài ra bạn có thể thêm thông số* **conv=fdatasync**
 
 *để chỉ ra rằng dữ liệu được ghi trên ổ cứng chứ không ghi trên RAM,như vậy kết quả sẽ chính xác hơn.*
 
