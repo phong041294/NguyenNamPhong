@@ -35,6 +35,7 @@ Toán tử
 | sync | Đồng bộ dữ liệu với ổ đang sao chép sang |
 
 **Options**
+
 | Option | Ý nghĩa |
 | ------------- |-----:|
 | --help | Hiển thị menu help và thoát |
@@ -75,6 +76,7 @@ Block và Bytes có thể thêm một số trường theo sau để khai báo đ
 - Chuyển đổi chữ thường thành hoa và ngược lại:
  
 <img src="http://i.imgur.com/4Dv91QD.png">
+
 *Nếu muốn biến chữ hoa thành chữ thường,thay ucase bằng lcase*
 
 - Tạo 1 file có dung lượng cố định:
