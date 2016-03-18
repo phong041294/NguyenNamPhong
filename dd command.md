@@ -97,14 +97,15 @@ Cú pháp đo tốc độ ghi:
     
 <img src="http://i.imgur.com/32N1ARz.png">
 
-*Trong đó iflag/oflag=direct có nghĩa là sử dụng luồng Input/Output trực tiếp và bỏ qua buffer cache.Ngoài ra bạn có thể thêm thông số **conv=fdatasync**
+*Trong đó iflag/oflag=direct có nghĩa là sử dụng luồng Input/Output trực tiếp và bỏ qua buffer cache.*
+*Ngoài ra bạn có thể thêm thông số **conv=fdatasync** *
 
 *để chỉ ra rằng dữ liệu được ghi trên ổ cứng chứ không ghi trên RAM,như vậy kết quả sẽ chính xác hơn.*
 
 ##Tốc độ nào để đánh giá ổ cứng có chậm hay không?
 
-*Kinh nghiệm của nhiều người chỉ ra rằng, tốc độ chuẩn là 50MB/s.
+*Kinh nghiệm của nhiều người chỉ ra rằng, tốc độ chuẩn là 50MB/s.*
 
-Tức là nếu ổ của bạn đạt trên 50MB/s là có thể dùng được, trên 100MB/s là tốt.
+*Tức là nếu ổ của bạn đạt trên 50MB/s là có thể dùng được, trên 100MB/s là tốt.*
 
-Nhưng nếu ổ của bạn đạt dưới 40MB/s thì quá tệ.*
+*Nhưng nếu ổ của bạn đạt dưới 40MB/s thì quá tệ.*
