@@ -1,12 +1,12 @@
 #Linux and Unix dd command
 ##Giới thiệu về lệnh dd
-Lệnh dd dùng để sao lưu và phục hồi dữ liệu,chuyển đổi định dạng của dữ liệu,tạo file với kích thước cố định,ngoài ra nó còn dùng để đo tốc độ đọc ghi của ổ cứng
+Lệnh dd dùng để sao lưu và phục hồi dữ liệu,chuyển đổi định dạng của dữ liệu,tạo file với kích thước cố định,ngoài ra nó còn dùng để đo tốc độ đọc ghi của ổ cứng<br>
 **Cú pháp**
     dd OPTION 
     dd [Toán tử]...
 Toán tử
 | Toán tử |Ý nghĩa |
-| ------------- |-----:|
+| ----- |-----|
 | bs=BYTES | Quá trình đọc (ghi) bao nhiêu byte một lần đọc (ghi |
 | cbs=BYTES |  Chuyển đổi bao nhiêu byte một lần |
 | count=Blocks | Thực hiện bao nhiêu Block trong quá trình thực thi câu lệnh |
@@ -19,7 +19,7 @@ Toán tử
 
 **Chi tiết Conv**
 | Tác vụ | Ý nghĩa |
-| ------------- |-----:|
+| ----- |-----|
 | ascii | Chuyển đôi từ mã EBCDIC sáng ASCII |
 | ebcdic | Chuyển đổi từ mã ASCII sang EBCDIC |
 | lcase | Chuyển đổi từ chữ thường lên hết thành chữ in hoa |
@@ -35,7 +35,7 @@ Toán tử
 | --version | Hiển thị thông tin phiên bản và thoát |
 
 **Trường hậu tố**
-Block và Bytes có thể thêm một số trường theo sau để khai báo định dạng khác
+Block và Bytes có thể thêm một số trường theo sau để khai báo định dạng khác<br>
 - c = 1 byte
 - w = 2 byte
 - b = 512 byte
