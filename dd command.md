@@ -85,13 +85,13 @@ Block và Bytes có thể thêm một số trường theo sau để khai báo đ
 
 - Đo tốc độ đọc/ghi của ổ cứng:
 
-Cú pháp đo tốc độ đọc:
+Cú pháp đo tốc độ ghi:
 
     dd if=/dev/zero of=/nas-mount-point/samplefile bs=1M count=1024 oflag=direct
     
 <img src="http://i.imgur.com/ZRkCsip.png">
 
-Cú pháp đo tốc độ ghi:
+Cú pháp đo tốc độ đọc:
 
     dd if=/nas-mount-point/samplefile of=/dev/null bs=1M count=1024 iflag=direct
     
